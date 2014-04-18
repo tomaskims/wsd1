@@ -1,0 +1,118 @@
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333;
+    background: url("images/soccer1.png");
+    background-repeat:repeat-y;
+   
+}
+
+p {
+    padding: 10px;
+    
+
+}
+
+#wrapper {
+    width: 100%;
+    min-width: 1000px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+#header {
+	background-color: rgba(192, 171, 88, 0.2);
+	background: rgba(192, 171, 88, 0.2);
+	color: rgba(192, 171, 88, 0.2);
+	text-align: center;
+	text-shadow: 8px 8px 0 rgba(255,0,180,0.5);
+	font-family: 'Cinzel', serif;
+	font-weight: lighter;
+	border: 1px solid green;
+	font-size: 3em;
+	font-style: oblique;
+    float: left;
+    height: 150px;
+    width: 100%;
+    background-image:url("images/soccericon.png");
+    background-repeat:no-repeat;
+    background-position:90%;
+}
+
+#navigation {
+	text-align:center;
+	text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
+	letter-spacing: 28px;
+	font-weight: bolder;
+	font-family: 'Ceviche One', cursive;
+	font-size:2.5em;
+	background-color:rgba(0, 145, 153, 1);
+	opacity: 3;	
+	font-style: italic;
+    float: left;
+    height: 90px;
+    width: 100%;
+}
+
+#contentliquid {
+    float: left;
+    width: 100%;
+}
+
+#content {
+	background-image: url("images/chelsea.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: 80% 50%; 
+	color:#0000FF;
+	text-transform: capitalize;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+li {
+	list-style-type:circle;
+		}
+
+#leftcolumn {
+	background-color: rgba(41, 141, 187, 0.6);
+	background: rgba(41, 141, 187, 0.6);
+	color: rgba(41, 141, 187, 0.6);
+	font-size:20px;
+	font-family: 'Joti One', cursive;
+	color:white;
+    width: 150px;
+    float: left;
+    margin-left:-100%;
+}
+
+#rightcolumn {
+	background: rgba(183,222,237,1);
+	background: -webkit-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,0.96) 32%, rgba(33,180,226,0.93) 67%, rgba(183,222,237,0.89) 100%);
+	color:white;
+	text-align:center;
+	font-size:2em;
+	font-family: 'Joti One', cursive;
+    width: 150px;
+    float: left;
+    margin-left: -150px;
+}
+
+#footer {
+	background-color: rgba(43, 141, 137, 0.6);
+	background: rgba(43, 141, 137, 0.6);
+	color: rgba(43, 141, 137, 0.6);
+	text-align:center;
+    height: 40px;
+    width: 100%;
+    
+    clear: both;
+}
+
+a:link { color: blue }
+a:visited { color: purple }
+a:hover { font-weight: bold }
+a:active { color: lime }
+
+
